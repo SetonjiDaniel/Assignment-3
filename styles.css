@@ -7,7 +7,7 @@ body
  font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
  background-color:#A9D0F5;
 }
-#header
+.header
 {
  width:100%;
  margin:0px auto;
@@ -16,7 +16,7 @@ body
  height:70px;
  line-height:70px;
 }
-#header li
+.header li
 {
  display:inline-block;
  margin-right:25px;
@@ -25,18 +25,17 @@ body
  font-weight:bold;
  cursor:pointer;
 }
-#header #site_name
+.header .site_name
 {
  text-align:left;
  width:680px;
  font-size:35px;
  margin-left:20px;
 }
-#home,#about,#contact
+.home,.about,.contact
 {
  margin-top:100px;
  width:90%;
-/* height:400px;*/
  margin-left:5%;
  padding:50px;
  box-sizing:border-box;
@@ -44,19 +43,19 @@ body
  border-radius:10px;
  color:white;
 }
-#home h1
+.home h1
 {
  font-size:40px;
 }
-#home p
+.home p
 {
  font-size:20px;
 }
-#about p
+.about p
 {
  font-size:20px;
 }
-#contact input[type="text"]
+.contact input[type="text"]
 {
  width:250px;
  height:35px;
@@ -65,7 +64,7 @@ body
  margin-left:80px;
  border:none;
 }
-#contact textarea
+.contact textarea
 {
  float:left;
  width:250px;
@@ -75,7 +74,7 @@ body
  padding-left:10px;
  padding-top:10px;
 }
-#contact input[type="submit"]
+.contact input[type="submit"]
 {
  float:left;
  margin-left:20px;
